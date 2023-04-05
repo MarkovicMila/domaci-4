@@ -1,0 +1,14 @@
+U postgresql napraviti bazu Knjizara i unutar nje tabelu knjiga.
+Polja tabele su Id Knjige (serial, primary key), naziv (varchar), broj strana(integer), cena(float).
+Popuniti tabelu sa makar 5 knjiga.
+
+Napraviti python file knjizara.py
+koji kada se pokrene nudi krajnjen korisniku sledece opcije
+1.Prikazati sve knjige sa svim informacijama
+2.Prikazati nazive knjiga sa cenama
+3.Prikazati prosecnu cenu knjiga
+
+U zavistnosti od toga koji broj unese krajnji korisnik dobija se slede
+za broj 1 se vraca excel fajl sve.xlsx sa infomracijama iz tabele u sql
+za broj 2 se takodje vraca excel fajl
+za broj se stampa prosecna vrednost u tekstualnom fajlu prosek.txt
